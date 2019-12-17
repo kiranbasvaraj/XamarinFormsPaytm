@@ -10,15 +10,15 @@ namespace PaytmTest.Helpers
     public class Helper
     {
         public HtmlWebViewSource htmlSource = new HtmlWebViewSource();
-      public  String merchantKey = "NFFt60!A_H4evT!B";
+      public  String merchantKey = "your merchant key";
         public string CreateWebView(string orderId)
         {
             
             Dictionary<string, string> parameters = new Dictionary<string, string>();
-            parameters.Add("MID", "mSHsYo00906835990906");
+            parameters.Add("MID", "your mid");
             parameters.Add("CHANNEL_ID", "WEB");
             parameters.Add("INDUSTRY_TYPE_ID", "Retail");
-            parameters.Add("WEBSITE", "ccd");
+            parameters.Add("WEBSITE", "company");
             parameters.Add("EMAIL", "sample@abc.com");
             parameters.Add("MOBILE_NO", "");
             parameters.Add("CUST_ID", "cust1234");
