@@ -49,9 +49,9 @@ namespace PaytmTest
             HttpClient httpClient = new HttpClient();
 
             Dictionary<String, String> paytmParams = new Dictionary<String, String>();
-            paytmParams.Add("MID", "mSHsYo00906835990906");
+            paytmParams.Add("MID", "your mid");
             paytmParams.Add("ORDERID", "7675776e-559e-4e22-93f8-f4072fe71fac");
-            String checksum = paytm.CheckSum.generateCheckSum("NFFt60!A_H4evT!B", paytmParams);
+            String checksum = paytm.CheckSum.generateCheckSum("your merchent key", paytmParams);
             paytmParams.Add("CHECKSUMHASH", checksum);
             string paytmUrl = "https://securegw-stage.paytm.in/order/status";
 
@@ -78,7 +78,7 @@ namespace PaytmTest
                     string refundurl = "https://securegw-stage.paytm.in/refund/apply";
 
                     paytmParams.Clear();
-                    paytmParams.Add("MID", "mSHsYo00906835990906");
+                    paytmParams.Add("MID", "your mid");
                     paytmParams.Add("REFID", "RefundORD1");
                     paytmParams.Add("TXNID", res.TXNID);
                     paytmParams.Add("ORDERID", res.ORDERID);
