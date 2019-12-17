@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaytmTest.Android", "PaytmTest.Android\PaytmTest.Android.csproj", "{78F008BD-81A6-4C7B-ACC3-448E667012C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaytmTest", "PaytmTest\PaytmTest.csproj", "{BA6FF2BB-6250-4747-B3BF-AFA718FAEF4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78F008BD-81A6-4C7B-ACC3-448E667012C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F008BD-81A6-4C7B-ACC3-448E667012C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F008BD-81A6-4C7B-ACC3-448E667012C1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{78F008BD-81A6-4C7B-ACC3-448E667012C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F008BD-81A6-4C7B-ACC3-448E667012C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F008BD-81A6-4C7B-ACC3-448E667012C1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BA6FF2BB-6250-4747-B3BF-AFA718FAEF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6FF2BB-6250-4747-B3BF-AFA718FAEF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6FF2BB-6250-4747-B3BF-AFA718FAEF4A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BA6FF2BB-6250-4747-B3BF-AFA718FAEF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6FF2BB-6250-4747-B3BF-AFA718FAEF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6FF2BB-6250-4747-B3BF-AFA718FAEF4A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA4EA562-C5FC-4239-BBCC-F795E6AE2F6A}
+	EndGlobalSection
+EndGlobal
